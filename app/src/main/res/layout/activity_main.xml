@@ -6,39 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--content
+/*Button
+        android:id="@+id/this_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent" />
+
+
+    Button
+        android:id="@+id/time_button"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginHorizontal="16dp"
+        android:text="What time is it"
+        app:layout_constraintBottom_toTopOf="@+id/this_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"/> */
+
+
+
     <TextView
-        android:textSize="42sp"
         android:id="@+id/this_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello! world"
+        android:text="스터디 2차과제"
+        android:textSize="20sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" /> /-->
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/this_button"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="parent"
-        app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:text="PUSH ME!"/>
-
-
-    <Button
-        android:id="@+id/time_button"
-        android:layout_width="0dp"
+        android:id="@+id/Button3"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
-        app:layout_constraintEnd_toStartOf="parent"
-        app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="Parent"
-        android:text="What time is it"/>
-
-
+        android:text="click"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/this_text" />
 
 
 
